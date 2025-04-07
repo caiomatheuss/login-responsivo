@@ -11,8 +11,12 @@
     }
 
     #login > #img {
-        width: 70vw;
+        width: 50vw;
         height: 100vh;
+    }
+
+    #form > p {
+        font-size: 0.9em;
     }
 
 }
@@ -27,8 +31,21 @@
         display: flex;
     }
 
+    #login > #form {
+        order: 0;
+    }
+    
     #login > #img {
         width: 80vw;
         height: 100vh;
+        order: 1;
+    }
+
+    #form > h1 {
+        font-size: 2em;
+    }
+
+    #form > p {
+        font-size: 1.2em;
     }
 }
