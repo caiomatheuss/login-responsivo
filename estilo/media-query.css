@@ -8,6 +8,7 @@
     #login {
         width: 80vw;
         display: flex;
+        height: 40vh;
     }
 
     #login > #img {
@@ -28,6 +29,7 @@
     #login {
         width: 90vw;
         display: flex;
+        height: 50vh;
     }
 
     #login > #form {
@@ -46,5 +48,6 @@
 
     #form > p {
         font-size: 1.2em;
+        margin-bottom: 25px;
     }
 }

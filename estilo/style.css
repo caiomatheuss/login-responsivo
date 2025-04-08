@@ -42,7 +42,7 @@ main {
 
 #login > #img {
     display: block;
-    background: #5f2c82 url(../imagens/pexels-bruthethe-2677702.jpg) no-repeat;
+    background: #5f2c82 url(../imagens/pexels-david-underland-3523621.jpg) no-repeat;
     background-size: cover;
     background-position: center top;
     height: 200px;
@@ -67,8 +67,32 @@ form > .campo {
     width: 100%;
     display: block;
     height: 40px;
-    border-radius: 5px;
+    border-radius: 8px;
     margin: 5px 0px;
+    overflow: hidden;
+}
+
+.campo > span {
+    color: white;
+    height: 100%;
+    width: 40px;
+    text-align: center;
+    transform: translate(3px, 3px);
+}
+
+.campo > input:focus-within {
+    background-color: #fff;
+}
+
+
+.campo > input {
+    font-size: 1.1em;
+    height: 100%;
+    background-color: #4eaca8;
+    border-radius: 8px;
+    padding: 2px;
+    width: calc(100% - 45px);
+    border: 2px solid #5f2c82;
 }
 
 .campo > label {
